@@ -26,4 +26,4 @@ gem install see5-installer
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at <https://github.com/elebow/see5-installer>.
+Bug reports and pull requests are welcome on GitHub at <https://github.com/elebow/ruby-see5-installer>.
