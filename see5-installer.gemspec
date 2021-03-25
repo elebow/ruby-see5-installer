@@ -26,5 +26,5 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.extensions = %w[ext/see5/installer/extconf.rb]
+  spec.extensions = %w[ext/see5-installer/extconf.rb]
 end
