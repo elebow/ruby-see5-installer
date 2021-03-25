@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Eddie Lebow"]
   spec.email         = ["elebow@users.noreply.github.com"]
 
-  spec.summary       = "Installer for C5.0, a decision tree classifier tool."
+  spec.summary       = "Installer for C5.0 and GritBot, tools for decision-tree learning and data cleansing."
   spec.homepage      = "https://github.com/elebow/ruby-see5-installer"
-  spec.license       = "MIT"
+  spec.licenses      = ["MIT", "GPL-3.0"]
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
   spec.metadata["homepage_uri"] = spec.homepage
