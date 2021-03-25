@@ -1,35 +1,29 @@
 # See5::Installer
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/see5/installer`. To experiment with that code, run `bin/console` for an interactive prompt.
+This gem installs the executables `c5.0` and `gritbot`, which can be used by other gems. It provides no other functionality. The executable files are left inside the gem directory, so they do not make any unnecessary assumptions about the directory structure of the system.
 
-TODO: Delete this and the text above, and describe your gem
+This repo contains snapshots of the source trees of C5.0 and GritBot, downloaded from <https://www.rulequest.com/download.html>. These packages are both licensed under GPL Version 3. The gem's code is licensed under the MIT License.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'see5-installer'
+gem "see5-installer"
 ```
 
 And then execute:
 
-    $ bundle install
+```
+bundle install
+```
 
 Or install it yourself as:
 
-    $ gem install see5-installer
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+```
+gem install see5-installer
+```
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/see5-installer.
+Bug reports and pull requests are welcome on GitHub at <https://github.com/elebow/see5-installer>.
